@@ -1,4 +1,11 @@
 Rails.application.routes.draw do
+
+  (1..1000).each do |x|
+
+    get "/#{x}", controller: :home, action: :catch_all
+
+  end
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
