@@ -1,5 +1,5 @@
 GIT
-  remote: https://fcfe9a6340fdcb498b03ee6b79b166639b378e54:x-oauth-basic@github.com/tcellio/rubyagent-tcell.git
+  remote: https://github.com/tcellio/rubyagent-tcell.git
   revision: b0079f5a5cbbc5fba279ba2605b60d6820f75864
   ref: b0079f5a5cbbc5fba279ba2605b60d6820f75864
   specs:
