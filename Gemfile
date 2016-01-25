@@ -25,7 +25,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 #gem 'tcell_agent', path: "/Users/ralba/Projects/github/rubyagent-tcell"
-gem 'tcell_agent', git: "https://github.com/tcellio/rubyagent-tcell.git", ref: 'b0079f5a5cbbc5fba279ba2605b60d6820f75864'
+gem 'tcell_agent', git: "git@github.com:tcellio/rubyagent-tcell.git", ref: 'b0079f5a5cbbc5fba279ba2605b60d6820f75864'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
