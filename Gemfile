@@ -24,7 +24,8 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
-gem 'tcell_agent', path: "/Users/ralba/Projects/github/rubyagent-tcell"
+#gem 'tcell_agent', path: "/Users/ralba/Projects/github/rubyagent-tcell"
+gem 'tcell_agent', git: "https://#{ENV['TCELL_GITHUB_TOKEN']}:x-oauth-basic@github.com/tcellio/rubyagent-tcell.git", ref: 'b0079f5a5cbbc5fba279ba2605b60d6820f75864'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
